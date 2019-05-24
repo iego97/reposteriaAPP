@@ -14,6 +14,16 @@
 		3D446BFA229713ED00E0F77F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D446BF8229713ED00E0F77F /* LaunchScreen.storyboard */; };
 		3D446C05229713ED00E0F77F /* SweetBakeryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D446C04229713ED00E0F77F /* SweetBakeryAppTests.swift */; };
 		3D446C10229713ED00E0F77F /* SweetBakeryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D446C0F229713ED00E0F77F /* SweetBakeryAppUITests.swift */; };
+		3D446C22229723C800E0F77F /* ViewControllerSeleccion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D446C21229723C800E0F77F /* ViewControllerSeleccion.swift */; };
+		3D446C2422972CEF00E0F77F /* Galleta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D446C2322972CEF00E0F77F /* Galleta.swift */; };
+		3D446C2622972E1900E0F77F /* Pastel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D446C2522972E1900E0F77F /* Pastel.swift */; };
+		3D446C282297325000E0F77F /* Gelatina.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D446C272297325000E0F77F /* Gelatina.swift */; };
+		3D446C2A2297329100E0F77F /* Bollo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D446C292297329100E0F77F /* Bollo.swift */; };
+		3D446C2C229732B100E0F77F /* Flan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D446C2B229732B100E0F77F /* Flan.swift */; };
+		3D446C2E2297333B00E0F77F /* ViewControllerProductos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D446C2D2297333B00E0F77F /* ViewControllerProductos.swift */; };
+		3D446C302297334600E0F77F /* CeldaProductos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D446C2F2297334600E0F77F /* CeldaProductos.swift */; };
+		3D446C322297468D00E0F77F /* Productos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D446C312297468D00E0F77F /* Productos.swift */; };
+		3D7FE003229872E8004CDDF8 /* ViewControllerDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7FE002229872E8004CDDF8 /* ViewControllerDetalle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,16 @@
 		3D446C0B229713ED00E0F77F /* SweetBakeryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SweetBakeryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D446C0F229713ED00E0F77F /* SweetBakeryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetBakeryAppUITests.swift; sourceTree = "<group>"; };
 		3D446C11229713ED00E0F77F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D446C21229723C800E0F77F /* ViewControllerSeleccion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerSeleccion.swift; sourceTree = "<group>"; };
+		3D446C2322972CEF00E0F77F /* Galleta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Galleta.swift; sourceTree = "<group>"; };
+		3D446C2522972E1900E0F77F /* Pastel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pastel.swift; sourceTree = "<group>"; };
+		3D446C272297325000E0F77F /* Gelatina.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gelatina.swift; sourceTree = "<group>"; };
+		3D446C292297329100E0F77F /* Bollo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bollo.swift; sourceTree = "<group>"; };
+		3D446C2B229732B100E0F77F /* Flan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flan.swift; sourceTree = "<group>"; };
+		3D446C2D2297333B00E0F77F /* ViewControllerProductos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerProductos.swift; sourceTree = "<group>"; };
+		3D446C2F2297334600E0F77F /* CeldaProductos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaProductos.swift; sourceTree = "<group>"; };
+		3D446C312297468D00E0F77F /* Productos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Productos.swift; sourceTree = "<group>"; };
+		3D7FE002229872E8004CDDF8 /* ViewControllerDetalle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDetalle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +117,11 @@
 		3D446BEE229713E700E0F77F /* SweetBakeryApp */ = {
 			isa = PBXGroup;
 			children = (
+				3D446C20229723AB00E0F77F /* Models */,
+				3D446C1F2297239200E0F77F /* Views */,
+				3D446C1E2297237E00E0F77F /* ViewControllers */,
 				3D446BEF229713E700E0F77F /* AppDelegate.swift */,
-				3D446BF1229713E700E0F77F /* ViewController.swift */,
-				3D446BF3229713E700E0F77F /* Main.storyboard */,
 				3D446BF6229713ED00E0F77F /* Assets.xcassets */,
-				3D446BF8229713ED00E0F77F /* LaunchScreen.storyboard */,
 				3D446BFB229713ED00E0F77F /* Info.plist */,
 			);
 			path = SweetBakeryApp;
@@ -123,6 +143,40 @@
 				3D446C11229713ED00E0F77F /* Info.plist */,
 			);
 			path = SweetBakeryAppUITests;
+			sourceTree = "<group>";
+		};
+		3D446C1E2297237E00E0F77F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3D446BF1229713E700E0F77F /* ViewController.swift */,
+				3D446C21229723C800E0F77F /* ViewControllerSeleccion.swift */,
+				3D446C2D2297333B00E0F77F /* ViewControllerProductos.swift */,
+				3D446C2F2297334600E0F77F /* CeldaProductos.swift */,
+				3D7FE002229872E8004CDDF8 /* ViewControllerDetalle.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3D446C1F2297239200E0F77F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D446BF3229713E700E0F77F /* Main.storyboard */,
+				3D446BF8229713ED00E0F77F /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3D446C20229723AB00E0F77F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3D446C2322972CEF00E0F77F /* Galleta.swift */,
+				3D446C2522972E1900E0F77F /* Pastel.swift */,
+				3D446C272297325000E0F77F /* Gelatina.swift */,
+				3D446C292297329100E0F77F /* Bollo.swift */,
+				3D446C2B229732B100E0F77F /* Flan.swift */,
+				3D446C312297468D00E0F77F /* Productos.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +311,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D446BF2229713E700E0F77F /* ViewController.swift in Sources */,
+				3D446C2622972E1900E0F77F /* Pastel.swift in Sources */,
+				3D446C282297325000E0F77F /* Gelatina.swift in Sources */,
 				3D446BF0229713E700E0F77F /* AppDelegate.swift in Sources */,
+				3D446C2A2297329100E0F77F /* Bollo.swift in Sources */,
+				3D446C322297468D00E0F77F /* Productos.swift in Sources */,
+				3D446C2422972CEF00E0F77F /* Galleta.swift in Sources */,
+				3D446C2C229732B100E0F77F /* Flan.swift in Sources */,
+				3D7FE003229872E8004CDDF8 /* ViewControllerDetalle.swift in Sources */,
+				3D446C302297334600E0F77F /* CeldaProductos.swift in Sources */,
+				3D446C22229723C800E0F77F /* ViewControllerSeleccion.swift in Sources */,
+				3D446C2E2297333B00E0F77F /* ViewControllerProductos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
